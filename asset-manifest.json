@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/webmidi-logger/static/css/main.36982d05.chunk.css",
+    "main.js": "/webmidi-logger/static/js/main.45d4de15.chunk.js",
+    "main.js.map": "/webmidi-logger/static/js/main.45d4de15.chunk.js.map",
+    "runtime-main.js": "/webmidi-logger/static/js/runtime-main.81e2c203.js",
+    "runtime-main.js.map": "/webmidi-logger/static/js/runtime-main.81e2c203.js.map",
+    "static/js/2.80370c18.chunk.js": "/webmidi-logger/static/js/2.80370c18.chunk.js",
+    "static/js/2.80370c18.chunk.js.map": "/webmidi-logger/static/js/2.80370c18.chunk.js.map",
+    "index.html": "/webmidi-logger/index.html",
+    "precache-manifest.134aa6365831cc908d89221dccbb7b1d.js": "/webmidi-logger/precache-manifest.134aa6365831cc908d89221dccbb7b1d.js",
+    "service-worker.js": "/webmidi-logger/service-worker.js",
+    "static/css/main.36982d05.chunk.css.map": "/webmidi-logger/static/css/main.36982d05.chunk.css.map",
+    "static/js/2.80370c18.chunk.js.LICENSE": "/webmidi-logger/static/js/2.80370c18.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.81e2c203.js",
+    "static/js/2.80370c18.chunk.js",
+    "static/css/main.36982d05.chunk.css",
+    "static/js/main.45d4de15.chunk.js"
+  ]
+}
