@@ -1,0 +1,62 @@
+.Logger {
+    width: 1000px;
+    margin: auto;
+    padding: 10px;
+}
+
+.Logger h2 {
+    text-align: center;
+}
+
+.Logger .message,
+.Logger .midiInput {
+    margin: 2px;
+    padding: 2px 4px;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Logger .message div {
+    display: inline-block;
+    margin: 2px;
+    padding: 2px;
+    /* background: steelblue; */
+}
+
+.Logger .message .id {
+    width: 30px;
+    pointer-events: none;
+}
+.Logger .message .time {
+    width: 80px;
+}
+.Logger .message .device {
+    width: 250px;
+}
+.Logger .message .channel {
+    width: 70px;
+}
+.Logger .message .command {
+    width: 180px;
+}
+.Logger .message .pitch {
+    width: 50px;
+}
+.Logger .message .velocity {
+    width: 30px;
+}
+
+
+.Logger .noteOn {
+    background-color: rgba(70, 130, 180, 0.2);
+}
+.Logger .noteOff {
+    background-color: rgba(186, 94, 24, 0.2);
+}
+.Logger .pitchWheel {
+    background-color: rgba(55, 145, 16, 0.2);
+}
+.Logger .unknownCommand {
+    background-color: rgba(128, 128, 128, 0.2);
+}
