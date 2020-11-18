@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/webmidi-logger/precache-manifest.134aa6365831cc908d89221dccbb7b1d.js"
+  "/webmidi-logger/precache-manifest.d7d56b84841866a6d95dbc5db1e13a01.js"
 );
 
 self.addEventListener('message', (event) => {

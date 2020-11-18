@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "45a6b590f467eae9c9e67977ddeec7ff",
+    "revision": "0b368f07ae6d51a017af861d211d0bbb",
     "url": "/webmidi-logger/index.html"
   },
   {
-    "revision": "0684eca8114bea8737d0",
-    "url": "/webmidi-logger/static/css/main.36982d05.chunk.css"
+    "revision": "f0e13945ea23687c2718",
+    "url": "/webmidi-logger/static/css/main.8bb98950.chunk.css"
   },
   {
     "revision": "6bc5ade2bd98e4e85aa3",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/webmidi-logger/static/js/2.80370c18.chunk.js.LICENSE"
   },
   {
-    "revision": "0684eca8114bea8737d0",
-    "url": "/webmidi-logger/static/js/main.45d4de15.chunk.js"
+    "revision": "f0e13945ea23687c2718",
+    "url": "/webmidi-logger/static/js/main.240d683e.chunk.js"
   },
   {
     "revision": "2c9f57d164e7aaae6505",
