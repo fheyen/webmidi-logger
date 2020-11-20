@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/webmidi-logger/static/css/main.8bb98950.chunk.css",
-    "main.js": "/webmidi-logger/static/js/main.240d683e.chunk.js",
-    "main.js.map": "/webmidi-logger/static/js/main.240d683e.chunk.js.map",
+    "main.css": "/webmidi-logger/static/css/main.97ceb203.chunk.css",
+    "main.js": "/webmidi-logger/static/js/main.0145492f.chunk.js",
+    "main.js.map": "/webmidi-logger/static/js/main.0145492f.chunk.js.map",
     "runtime-main.js": "/webmidi-logger/static/js/runtime-main.81e2c203.js",
     "runtime-main.js.map": "/webmidi-logger/static/js/runtime-main.81e2c203.js.map",
     "static/js/2.80370c18.chunk.js": "/webmidi-logger/static/js/2.80370c18.chunk.js",
     "static/js/2.80370c18.chunk.js.map": "/webmidi-logger/static/js/2.80370c18.chunk.js.map",
     "index.html": "/webmidi-logger/index.html",
-    "precache-manifest.d7d56b84841866a6d95dbc5db1e13a01.js": "/webmidi-logger/precache-manifest.d7d56b84841866a6d95dbc5db1e13a01.js",
+    "precache-manifest.539588d9ee0fa58475fa3e61c4e97927.js": "/webmidi-logger/precache-manifest.539588d9ee0fa58475fa3e61c4e97927.js",
     "service-worker.js": "/webmidi-logger/service-worker.js",
-    "static/css/main.8bb98950.chunk.css.map": "/webmidi-logger/static/css/main.8bb98950.chunk.css.map",
+    "static/css/main.97ceb203.chunk.css.map": "/webmidi-logger/static/css/main.97ceb203.chunk.css.map",
     "static/js/2.80370c18.chunk.js.LICENSE": "/webmidi-logger/static/js/2.80370c18.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.81e2c203.js",
     "static/js/2.80370c18.chunk.js",
-    "static/css/main.8bb98950.chunk.css",
-    "static/js/main.240d683e.chunk.js"
+    "static/css/main.97ceb203.chunk.css",
+    "static/js/main.0145492f.chunk.js"
   ]
 }
