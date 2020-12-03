@@ -67,8 +67,11 @@
 .Logger .noteOff {
     background-color: rgba(186, 94, 24, 0.2);
 }
-.Logger .pitchWheel {
+.Logger .pitchBend {
     background-color: rgba(55, 145, 16, 0.2);
+}
+.Logger .continuousController {
+    background-color: rgba(122, 138, 11, 0.2);
 }
 .Logger .unknownCommand {
     background-color: rgba(128, 128, 128, 0.2);

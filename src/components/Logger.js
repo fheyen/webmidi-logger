@@ -20,11 +20,7 @@ export default class Logger extends Component {
             hiddenCommands: new Set()
 
         };
-        this.commands = new Map([
-            [128, 'noteOff'],
-            [144, 'noteOn'],
-            [224, 'pitchWheel'],
-        ]);
+        this.commands = Midi.MIDI_COMMANDS;
     }
 
     componentDidMount() {
@@ -76,7 +72,7 @@ export default class Logger extends Component {
         const commandAndChannel = message.data[0];
         const channel = commandAndChannel % 16;
         const command = commandAndChannel - channel;
-        const commandName = this.commands.get(command) || 'unknownCommand';
+        const commandName = this.commands.get(command)?.name || 'unknownCommand';
         const time = message.timeStamp;
         const pitch = message.data[1];
         // A velocity value might not be included with a noteOff command
@@ -252,17 +248,22 @@ export default class Logger extends Component {
                         </div>
                         Commands
                         <div>
-                            {Array.from(commands).sort((a, b) => a - b).map(d => (
-                                <button
-                                    key={d}
-                                    value={d}
-                                    onClick={this.toggleCommand}
-                                    className={hiddenCommands.has(d) ? 'hidden' : 'shown'}
-                                    title='Click to hide / show'
-                                >
-                                    {d} ({this.commands.get(d) || 'unknownCommand'})
-                                </button>
-                            ))}
+                            {Array.from(commands).sort((a, b) => a - b).map(d => {
+                                let className = hiddenCommands.has(d) ? 'hidden' : 'shown';
+                                const commandName = this.commands.get(d)?.name || 'unknownCommand';
+                                className = `${className} ${commandName}`;
+                                return (
+                                    <button
+                                        key={d}
+                                        value={d}
+                                        onClick={this.toggleCommand}
+                                        className={className}
+                                        title='Click to hide / show'
+                                    >
+                                        {d} ({this.commands.get(d).name || 'unknownCommand'})
+                                    </button>
+                                );
+                            })}
                         </div>
                     </div>
                     <div className='message'>

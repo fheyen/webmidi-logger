@@ -1,6 +1,6 @@
 {
   "name": "webmidi-logger",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "homepage": "https://fheyen.github.io/webmidi-logger/",
   "private": false,
   "dependencies": {
@@ -11,7 +11,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
-    "musicvis-lib": "^0.9.1",
+    "musicvis-lib": "^0.10.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-scripts": "3.3.0"

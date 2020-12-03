@@ -179,37 +179,6 @@ body {
     background: var(--scrollBarThumbBgHover);
 }
 
-/* SVGs */
-svg {
-}
-
-svg text {
-    font: 13px sans-serif;
-    user-select: none;
-    pointer-events: none;
-}
-
-svg .heading {
-    font-size: 16px;
-}
-
-.axis path,
-.axis line {
-    fill: none;
-    stroke: var(--axisColor);
-    shape-rendering: crispEdges;
-}
-
-svg text {
-    fill: var(--svgTextColor);
-}
-
-.heading,
-.xAxisLabel,
-.yAxisLabel {
-    text-anchor: middle;
-}
-
 /* Buttons and Inputs */
 button,
 select,
