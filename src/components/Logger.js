@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Logger.css';
-import { getMidiNoteByNr } from '../lib/Midi';
+import { Midi } from 'musicvis-lib';
 
 
 export default class Logger extends Component {
@@ -95,7 +95,7 @@ export default class Logger extends Component {
                 </div>
                 {[128, 144].includes(command) && (
                     <div className='pitch' title='Pitch'>
-                        {pitch} {getMidiNoteByNr(pitch).label}
+                        {pitch} {Midi.getMidiNoteByNr(pitch).label}
                     </div>
                 )}
                 {[144].includes(command) && (
