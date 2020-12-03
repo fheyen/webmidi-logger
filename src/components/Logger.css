@@ -8,6 +8,19 @@
     text-align: center;
 }
 
+.Logger .filterOptions {
+    text-align: center;
+}
+
+.Logger .filterOptions button {
+    margin: 1px 2px 2px 3px;
+}
+
+.Logger .filterOptions button.hidden {
+    opacity: 0.5;
+}
+
+
 .Logger .message,
 .Logger .midiInput {
     margin: 2px;
